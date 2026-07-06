@@ -1,6 +1,4 @@
-Here is the corrected `README.md` file. I have fixed the markdown image syntax, corrected the file paths to perfectly match the spaces and filenames shown in `image_08d365.png`, grouped all three "proof" images into the appropriate "gap in the official hazard layer" section, and updated your repository structure tree to accurately reflect that your python scripts are housed inside a `script` folder.
 
-```markdown
 # Po Riverbank Ground Deformation Monitoring — Turin
 
 **An early-warning triage tool for urban infrastructure monitoring, using free Copernicus Sentinel-1 InSAR data.**
