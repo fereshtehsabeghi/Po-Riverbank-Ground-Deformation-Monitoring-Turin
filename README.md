@@ -2,7 +2,7 @@
 
 **An early-warning triage tool for urban infrastructure monitoring, using free Copernicus Sentinel-1 InSAR data.**
 
-![Overview: deformation hotspots along the Po corridor](figures/full_scene.jpg)
+![Overview: deformation hotspots along the Po corridor] ![](figures/full_scene.jpg)
 
 ## Overview
 
