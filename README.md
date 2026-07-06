@@ -2,8 +2,8 @@
 
 **An early-warning triage tool for urban infrastructure monitoring, using free Copernicus Sentinel-1 InSAR data.**
 
-![Overview: deformation hotspots along the Po corridor](figures/full_scene.jpg)
-
+!()[figures/full scene.jpg]
+!()[figures/Screenshot 2026-07-06 213046.jpg]
 ## Overview
 
 This project uses ground deformation data from the European Ground Motion Service (EGMS) — derived from Sentinel-1 InSAR processing — to identify statistically significant zones of ground movement along the Po riverbank corridor in Turin, Italy. These deformation hotspots are then cross-referenced against OpenStreetMap infrastructure data and Italy's official hydrogeological hazard maps (ISPRA PAI) to flag buildings and structures that may be exposed to active, ongoing ground instability that isn't necessarily captured by static, periodically-updated hazard classifications.
@@ -72,8 +72,8 @@ Two to three hotspot points fall inside or immediately adjacent to the **Ex Disc
 
 ### 3. A likely gap in the official hazard layer
 
-![Hotspot points falling outside any ISPRA-classified hazard zone](figures/proof1.jpg)
-![Second example of an unclassified hotspot location](figures/proof2.jpg)
+
+
 ![Third example, used as the primary reference for this finding](figures/proof3.jpg)
 
 A subset of hotspot points fell entirely outside any ISPRA PAI-classified hazard zone in the corresponding shapefile. Two explanations are possible: either these points genuinely sit outside any recognized hazard area (in which case the InSAR data may be surfacing early-stage or previously unclassified instability), or there's a data alignment issue (CRS mismatch, an outdated PAI vintage, or a boundary/tile edge effect from the clipping step). This is flagged as an open question rather than a confirmed conclusion — it needs a manual visual audit against the source ISPRA shapefile before being treated as a genuine finding, but it's exactly the kind of discrepancy this project was designed to surface.
@@ -81,9 +81,11 @@ A subset of hotspot points fell entirely outside any ISPRA PAI-classified hazard
 ### 4. Specific infrastructure sitting inside high-risk overlap zones
 
 ![Residential building on Corso Appio Claudio inside a flagged risk zone](figures/infrastructure_in_danger_building-corso_appio_claudio_.jpg)
-![Basse di Mirafiori: dense residential area inside a medium-to-high risk band](figures/mediumdangerzone-infrstructre_danger-basse_di_mirafiori_area.jpg)
+![Hotspot points falling outside any ISPRA-classified hazard zone](figures/proof1.jpg)
+medium-risk overlap example ![Second example of an unclassified hotspot location](figures/proof2.jpg)
 
 Visual review of named locations identified structures directly inside zones flagged as high-risk (dark red/orange in the classification) by both the InSAR hotspot layer and background hazard shading, including a residential building along **Corso Appio Claudio** and structures in the **Basse di Mirafiori** area, the latter falling within a medium-to-high classified band alongside a dense residential zone.
+![Basse di Mirafiori: dense residential area inside a medium-to-high risk band](figures/mediumdangerzone-infrstructre_danger-basse_di_mirafiori_area.jpg)
 
 ## Tech Stack
 
