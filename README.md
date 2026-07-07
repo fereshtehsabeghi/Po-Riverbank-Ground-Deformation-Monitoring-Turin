@@ -4,7 +4,6 @@ An automated geospatial data pipeline designed to detect, classify, and visualiz
 
 This project fuses millimeter-precision European Ground Motion Service (EGMS) radar data with OpenStreetMap (OSM) civil infrastructure and official Italian environmental hazard maps (ISPRA PAI). By applying spatial statistics and proximity buffers, it operates as an early-warning dashboard to identify structural vulnerabilities before critical failures occur.
 
-![Full Scene Overview](figures/1.jpg)
 ![](figures/fullscene.jpg)
 ## 📌 Project Overview
 
@@ -57,7 +56,7 @@ The algorithm correctly flagged severe subsidence in pristine agricultural flood
 
 By overlaying the active hotspots against ISPRA's official High Probability (HPH) and Medium Probability (MPH) hazard zones, the tool proved its accuracy. Many algorithmic hotspots aligned perfectly with mapped danger zones, acting as a strict independent validation of the government's models.
 
-![Official ISPRA Hazard Zones](figures/official-ispra-hazard-zones.jpg)
+![Full Scene Overview](figures/1.jpg)
 
 ![Data Overlap Validation](figures/overlapinthedata.jpg)
 
