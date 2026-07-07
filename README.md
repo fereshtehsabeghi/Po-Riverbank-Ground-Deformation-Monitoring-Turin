@@ -35,7 +35,7 @@ The analysis is driven by a series of modular Python scripts located in the `scr
 - Cleans, flattens, and validates complex OSM multipolygons to prevent geometry initialization crashes in web rendering engines (like deck.gl).
 - Exports strictly formatted, lightweight GeoJSON files ready for Kepler.gl deployment.
 
-![Working Process in Terminal](figures/working-process-terminal.jpg)
+![Working Process in Terminal](figures/apartofworkingprocess.jpg)
 
 ## 📊 Key Findings & Spatial Case Studies
 
@@ -45,13 +45,13 @@ By rendering the processed data in Kepler.gl, the visual intersection of ground 
 
 Radar analysis detected highly active deformation points at the toe of the former AMIAT Basse di Stura landfill. While optical imagery shows a safe, green terraced hill, the InSAR pipeline successfully captured the mechanical settlement of buried waste. Crucially, these hotspots are located right where the landfill meets the Stura di Lanzo river, highlighting a severe risk of toe-erosion that could compromise the site's protective liners and release leachate into the watershed.
 
-![Basse di Stura Landfill Risk](figures/basse-di-stura-landfill-area.jpg)
+![Basse di Stura Landfill Risk](figures/exdiscaricamiat.jpg)
 
 ### 2. The "Green Space" Paradox
 
 The algorithm correctly flagged severe subsidence in pristine agricultural floodplains. This validates the complex mechanics of soft alluvial soils. It demonstrates how groundwater extraction (aquifer compaction) and natural floodplain dynamics create severe, active hydrogeological risks in visually "safe" green zones that lack solid bedrock foundations.
 
-![Green but Hazardous](figures/green-but-hazardous.jpg)
+![Green but Hazardous](figures/greenbuthazardious.jpg)
 
 ### 3. Validating and Challenging Official Government Maps
 
@@ -59,21 +59,21 @@ By overlaying the active hotspots against ISPRA's official High Probability (HPH
 
 ![Official ISPRA Hazard Zones](figures/official-ispra-hazard-zones.jpg)
 
-![Data Overlap Validation](figures/data-overlap-validation.jpg)
+![Data Overlap Validation](figures/overlapinthedata.jpg)
 
 **The Discovery:** Crucially, the pipeline also detected active, statistically significant deformation clusters outside the official government boundaries. This proves the necessity of continuous satellite monitoring to update static historical maps and catch emerging risks before they are officially classified.
 
-![Unmapped Deformation Anomalies](figures/unmapped-deformation-anomalies.jpg)
+![Unmapped Deformation Anomalies](figures/glitch.jpg)
 
 ### 4. Direct Infrastructure Exposure
 
 Cross-referencing these risk zones with OSM building footprints isolated specific structures at risk, transforming abstract mathematical radar points into actionable urban management data.
 
-![Mirafiori Medium Danger Zone](figures/mirafiori-medium-danger-zone.jpg)
+![Mirafiori Medium Danger Zone](figures/mediumdangerzone.jpg)
 
-![Buildings in Danger - Corso Appio Claudio](figures/buildings-in-danger-corso-appio-claudio.jpg)
+![Buildings in Danger - Corso Appio Claudio](figures/infrastructurebuilding.jpg)
 
-![Medium Risk with Buildings](figures/medium-risk-with-buildings.jpg)
+![Medium Risk with Buildings](figures/medium-riskwithbuildings.jpg)
 
 ## 📂 Repository Structure
 
