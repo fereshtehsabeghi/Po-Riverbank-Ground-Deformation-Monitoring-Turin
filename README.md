@@ -4,7 +4,7 @@ An automated geospatial data pipeline designed to detect, classify, and visualiz
 
 This project fuses millimeter-precision European Ground Motion Service (EGMS) radar data with OpenStreetMap (OSM) civil infrastructure and official Italian environmental hazard maps (ISPRA PAI). By applying spatial statistics and proximity buffers, it operates as an early-warning dashboard to identify structural vulnerabilities before critical failures occur.
 
-![Full Scene Overview](figures/full-scene.jpg)
+![Full Scene Overview] !()[figures/full-scene.jpg]
 
 ## 📌 Project Overview
 
@@ -105,6 +105,6 @@ po-riverbank-insar/
 
 ## 👤 Author
 
-**Feria (Fereshteh) Sabeghi Eskandar**
+**Fereshteh Sabeghi Eskandar**
 GIS Analyst & Visual Communication Designer
 Focusing on the intersection of data visualization, platform urbanism, and environmental risk assessment.
