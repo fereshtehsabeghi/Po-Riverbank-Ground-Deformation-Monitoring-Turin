@@ -5,7 +5,7 @@ An automated geospatial data pipeline designed to detect, classify, and visualiz
 This project fuses millimeter-precision European Ground Motion Service (EGMS) radar data with OpenStreetMap (OSM) civil infrastructure and official Italian environmental hazard maps (ISPRA PAI). By applying spatial statistics and proximity buffers, it operates as an early-warning dashboard to identify structural vulnerabilities before critical failures occur.
 
 ![Full Scene Overview] !()[figures/full-scene.jpg]
-
+[![](figures/Screenshot 2026-07-06 213046.jpg)]
 ## 📌 Project Overview
 
 Traditional hydrogeological risk maps are often static, relying on historical flood or landslide data. This project introduces a dynamic approach: utilizing satellite-based Interferometric Synthetic Aperture Radar (InSAR) to measure actual ground movement in real-time. By filtering millions of data points and isolating significant deformation clusters, this tool bridges the gap between raw satellite data and actionable urban asset management.
